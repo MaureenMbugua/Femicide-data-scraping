@@ -303,14 +303,14 @@ with open('femicide_data.csv', 'a', newline='', encoding='utf-8') as file:
 
 # Close Chrome driver session
 driver.quit()
-
+```
 ## Next Steps
 
 With the raw data successfully scraped and stored in a structured CSV format, the following steps are planned to complete the project pipeline:
 
 - **Load the CSV data** into a pandas DataFrame for further manipulation
 - **Clean the dataset** to handle any missing values, inconsistent entries, or formatting issues
-- Perform high level **Exploratory Data Analysis (EDA)** to uncover trends, common patterns, and demographic insights to better understand the scale and nature of femicide cases in Kenya
+- Perform high-level **Exploratory Data Analysis (EDA)** to uncover trends, common patterns, and demographic insights to better understand the scale and nature of femicide cases in Kenya
 - Import the cleaned data into a **visualization tool** (e.g., Power BI or Tableau) to create an interactive dashboard for clearer presentation and easier interpretation
 
 These next steps will transform the raw scraped data into meaningful insights and help communicate findings in a more accessible and compelling way.
@@ -326,6 +326,3 @@ While the current project accomplishes its primary goal of extracting structured
 - **Logging System:** Implement logging (e.g., with Python’s logging module) to track scraping progress, errors, and performance metrics over time.
 - **Headless Browser Optimization:** Use headless mode in production environments to reduce resource usage, while retaining the option for full browser mode during debugging.
 - **Cloud Deployment:** Host the scraper on a cloud function (e.g., AWS Lambda, Google Cloud Functions) or containerize it using Docker for scalability and portability.
-
-
-
