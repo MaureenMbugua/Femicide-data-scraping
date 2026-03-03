@@ -63,6 +63,9 @@ Comprehensive data quality assessment and cleaning was performed to ensure analy
 ### 3. Visualization & Analysis
 An interactive dashboard was built in Looker Studio, presenting:
 > **🔗 [View Interactive Dashboard](https://lookerstudio.google.com/reporting/b7843c54-8869-424c-81a1-8d6f50d0b3c8))**
+
+![Dashboard](Images/Dashboard.png)
+
 - Total case count and temporal trends over time
 - Age distribution across life stages
 - Geographic distribution via county-level map
